@@ -1,0 +1,56 @@
+@media only screen and (max-width: 640px) {
+  .smNavbar {
+    display: flex;
+  }
+  .MdNavbar {
+    display: none;
+  }
+  .lgNavbar {
+    display: none;
+  }
+  .moviehero_lg {
+    display: none;
+  }
+  .moviehero_sm {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .poster_width {
+    width: 155px;
+    padding: 0 10px 0 10px;
+  }
+  .cast_poster {
+    padding-left: 12px;
+  }
+  .crew_poster {
+    padding-left: 12px;
+  }
+  .about_movie_text {
+    font-size: 13px;
+  }
+  .play_poster {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .sliderLg {
+    display: none;
+  }
+  .sliderMd {
+    display: none;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 30px;
+  line-height: 1;
+  opacity: 0.75;
+  background-color: transparent;
+}
